@@ -1,0 +1,14 @@
+scenario_dir: data/scenario_reconstruction_official_v1
+output_root: outputs/closed_loop_runs
+run_name: closed_loop_ptin_v1_20260617
+adapter_mode: real_power_online_traci_ns3_replay
+seed: 7
+episodes: 2
+max_steps: 4
+step_minutes: 5
+communication_min_delivery_rate: 0.7
+communication_max_mean_delay_ms: 250.0
+ns3_replay_results_csv: outputs/python_backend/ns3_rf_packet_execution_20260608/ns3_packet_results.csv
+ns3_online_command: python src/ptin_sim/ns3_online_packet_step.py --time-min {time_min} --max-packets-per-domain 4
+ns3_online_workdir: .
+ns3_online_timeout_s: 30.0

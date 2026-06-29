@@ -1,0 +1,38 @@
+scenario:
+  id: applied_energy_official_v1_switch_failure
+  type: instantaneous_initial_reconstruction
+  source: final_paper_appendix_table_b4_and_figure7
+  description: >
+    Official final-paper disaster scenario with four failed PDN lines from
+    Appendix Table B.4 and Fig. 7.
+  failed_pdn_line_switch_count: 4
+  failed_pdn_line_switch_ids:
+    - PDN_003
+    - PDN_004
+    - PDN_017
+    - PDN_020
+  failed_pdn_line_bus_pairs:
+    - 702-713
+    - 702-703
+    - 709-708
+    - 711-741
+  effects:
+    - unpowered_cn_nodes_due_to_pdn_outage
+    - unpowered_traffic_lights_due_to_pdn_outage
+    - unpowered_road_lighting_due_to_pdn_outage
+    - reduced_ev_dispatchability_due_to_cn_outage
+    - increased_mess_ugv_travel_time_due_to_utn_degradation
+
+framework_alignment:
+  disaster_category: instantaneous
+  control_paradigm: two_stage_deterministic
+  traffic_uncertainty_mode: interval_robust
+  robust_travel_time_multiplier: 1.25
+  predeployment_quality_index: 1.0
+  topology_vulnerability_weight: 0.15
+
+failure_release_steps:
+  PDN_003: 0
+  PDN_004: 0
+  PDN_017: 0
+  PDN_020: 0

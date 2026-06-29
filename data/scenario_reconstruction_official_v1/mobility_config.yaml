@@ -1,0 +1,24 @@
+mobility_layer:
+  status: official_appendix_coordinate_v1
+  time_step_minutes: 1
+  route_model: graph_shortest_path
+  future_sumo_export: true
+
+mess_ugv:
+  route_network: utn_edges
+  speed_policy:
+    powered_facility: normal_speed_km_h
+    unpowered_facility: failed_speed_km_h
+  default_start_node: 14
+  validation_target_node: 24
+  note: >
+    UTN coordinates and lane power-supply buses come from final Appendix
+    Tables B.6-B.7. Dynamic demand and SUMO OD flows remain future work.
+
+uav:
+  route_model: straight_line
+  speed_km_per_h: 180
+  range_km: 50
+  coverage_radius_km: 1
+  validation_start_node: CN_001
+  validation_target_node: CN_043

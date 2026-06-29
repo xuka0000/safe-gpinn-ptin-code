@@ -1,0 +1,49 @@
+resources:
+  mess_ugv:
+    count: 5
+    unit_power_kw: 500
+    unit_energy_kwh: 450
+    initial_soc_fraction: 0.55
+    initial_location: warehouse
+    source: final_paper_case_text_page_14_low_predeployment_ablation
+  uav:
+    count: 4
+    communication_radius_km: 1
+    flight_speed_km_per_h: 180
+    flight_endurance_km: 50
+    initial_location: warehouse
+    source: final_paper_case_text_page_14
+  ev_unit:
+    unit_power_kw: 50
+    unit_energy_kwh: 150
+    ev_ratio: 0.35
+    v2g_willingness: 0.008
+    source: final_paper_case_text_page_14_dynamic_availability_stress_low_predeployment_ablation
+  traffic_vehicle_population:
+    stable_operating_vehicle_count: 2600
+    source: final_paper_case_text_page_14
+  communication_base_station:
+    communication_radius_km: 3
+    demand_kw: 5
+    source: final_paper_case_text_page_14
+  traffic_facility_loads:
+    traffic_signal_kw_per_tj: 10
+    lane_illumination_w_per_20m: 50
+    source: final_paper_case_text_page_14
+  traffic_speeds:
+    normal_tj_km_per_h: 30
+    normal_tl_km_per_h: 60
+    failed_tj_km_per_h: 3.3
+    failed_tl_km_per_h: 25
+    source: final_paper_case_text_page_14
+  ev_availability_profile:
+    - time_min: 0
+      availability_factor: 0.10
+    - time_min: 10
+      availability_factor: 0.30
+    - time_min: 25
+      availability_factor: 0.18
+    - time_min: 40
+      availability_factor: 0.05
+    - time_min: 55
+      availability_factor: 0.22

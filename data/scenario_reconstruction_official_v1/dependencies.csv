@@ -1,0 +1,148 @@
+dependency_id,source_network,source_id,target_network,target_id,dependency_type,status,notes
+DEP_0001,PDN,712,CN,CN_001,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0002,PDN,708,CN,CN_002,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0003,PDN,708,CN,CN_003,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0004,PDN,708,CN,CN_004,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0005,PDN,708,CN,CN_005,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0006,PDN,731,CN,CN_006,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0007,PDN,731,CN,CN_007,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0008,PDN,710,CN,CN_008,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0009,PDN,705,CN,CN_009,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0010,PDN,705,CN,CN_010,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0011,PDN,703,CN,CN_011,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0012,PDN,703,CN,CN_012,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0013,PDN,731,CN,CN_013,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0014,PDN,738,CN,CN_014,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0015,PDN,734,CN,CN_015,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0016,PDN,710,CN,CN_016,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0017,PDN,710,CN,CN_017,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0018,PDN,705,CN,CN_018,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0019,PDN,705,CN,CN_019,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0020,PDN,703,CN,CN_020,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0021,PDN,703,CN,CN_021,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0022,PDN,729,CN,CN_022,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0023,PDN,738,CN,CN_023,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0024,PDN,738,CN,CN_024,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0025,PDN,734,CN,CN_025,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0026,PDN,734,CN,CN_026,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0027,PDN,705,CN,CN_027,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0028,PDN,702,CN,CN_028,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0029,PDN,714,CN,CN_029,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0030,PDN,714,CN,CN_030,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0031,PDN,729,CN,CN_031,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0032,PDN,729,CN,CN_032,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0033,PDN,729,CN,CN_033,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0034,PDN,711,CN,CN_034,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0035,PDN,799,CN,CN_035,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0036,PDN,702,CN,CN_036,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0037,PDN,720,CN,CN_037,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0038,PDN,720,CN,CN_038,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0039,PDN,720,CN,CN_039,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0040,PDN,706,CN,CN_040,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0041,PDN,706,CN,CN_041,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0042,PDN,741,CN,CN_042,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0043,PDN,711,CN,CN_043,power_supply,official_v1_appendix_b5,CN node power-supply bus from Table B.5.
+DEP_0044,PDN,734,UTN,1,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0045,PDN,736,UTN,2,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0046,PDN,734,UTN,3,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0047,PDN,734,UTN,4,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0048,PDN,710,UTN,5,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0049,PDN,736,UTN,6,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0050,PDN,799,UTN,7,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0051,PDN,705,UTN,8,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0052,PDN,705,UTN,9,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0053,PDN,708,UTN,10,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0054,PDN,711,UTN,11,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0055,PDN,711,UTN,12,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0056,PDN,711,UTN,13,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0057,PDN,729,UTN,14,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0058,PDN,714,UTN,15,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0059,PDN,705,UTN,16,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0060,PDN,703,UTN,17,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0061,PDN,799,UTN,18,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0062,PDN,703,UTN,19,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0063,PDN,714,UTN,20,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0064,PDN,720,UTN,21,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0065,PDN,720,UTN,22,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0066,PDN,729,UTN,23,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0067,PDN,706,UTN,24,traffic_signal_power,official_v1_appendix_b6,Traffic junction power-supply bus from Table B.6.
+DEP_0068,PDN,736,UTN_EDGE,UTN_001,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0069,PDN,734,UTN_EDGE,UTN_002,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0070,PDN,736,UTN_EDGE,UTN_003,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0071,PDN,734,UTN_EDGE,UTN_004,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0072,PDN,711,UTN_EDGE,UTN_005,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0073,PDN,710,UTN_EDGE,UTN_006,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0074,PDN,708,UTN_EDGE,UTN_007,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0075,PDN,736,UTN_EDGE,UTN_008,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0076,PDN,710,UTN_EDGE,UTN_009,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0077,PDN,736,UTN_EDGE,UTN_010,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0078,PDN,799,UTN_EDGE,UTN_011,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0079,PDN,799,UTN_EDGE,UTN_012,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0080,PDN,705,UTN_EDGE,UTN_013,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0081,PDN,705,UTN_EDGE,UTN_014,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0082,PDN,705,UTN_EDGE,UTN_015,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0083,PDN,708,UTN_EDGE,UTN_016,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0084,PDN,727,UTN_EDGE,UTN_017,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0085,PDN,705,UTN_EDGE,UTN_018,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0086,PDN,727,UTN_EDGE,UTN_019,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0087,PDN,711,UTN_EDGE,UTN_020,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0088,PDN,711,UTN_EDGE,UTN_021,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0089,PDN,711,UTN_EDGE,UTN_022,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0090,PDN,711,UTN_EDGE,UTN_023,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0091,PDN,729,UTN_EDGE,UTN_024,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0092,PDN,729,UTN_EDGE,UTN_025,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0093,PDN,703,UTN_EDGE,UTN_026,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0094,PDN,729,UTN_EDGE,UTN_027,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0095,PDN,703,UTN_EDGE,UTN_028,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0096,PDN,799,UTN_EDGE,UTN_029,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0097,PDN,703,UTN_EDGE,UTN_030,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0098,PDN,714,UTN_EDGE,UTN_031,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0099,PDN,714,UTN_EDGE,UTN_032,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0100,PDN,720,UTN_EDGE,UTN_033,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0101,PDN,720,UTN_EDGE,UTN_034,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0102,PDN,720,UTN_EDGE,UTN_035,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0103,PDN,706,UTN_EDGE,UTN_036,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0104,PDN,706,UTN_EDGE,UTN_037,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0105,PDN,706,UTN_EDGE,UTN_038,road_lighting_power,official_v1_appendix_b7,Traffic lane illumination power-supply bus from Table B.7.
+DEP_0106,CN,CN_028,PDN_EDGE,PDN_001,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0107,CN,CN_028,PDN_EDGE,PDN_002,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0108,CN,CN_036,PDN_EDGE,PDN_003,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0109,CN,CN_020,PDN_EDGE,PDN_004,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0110,CN,CN_020,PDN_EDGE,PDN_005,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0111,CN,CN_020,PDN_EDGE,PDN_006,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0112,CN,CN_037,PDN_EDGE,PDN_007,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0113,CN,CN_037,PDN_EDGE,PDN_008,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0114,CN,CN_009,PDN_EDGE,PDN_009,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0115,CN,CN_019,PDN_EDGE,PDN_010,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0116,CN,CN_041,PDN_EDGE,PDN_011,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0117,CN,CN_040,PDN_EDGE,PDN_012,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0118,CN,CN_040,PDN_EDGE,PDN_013,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0119,CN,CN_002,PDN_EDGE,PDN_014,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0120,CN,CN_003,PDN_EDGE,PDN_015,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0121,CN,CN_013,PDN_EDGE,PDN_016,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0122,CN,CN_007,PDN_EDGE,PDN_017,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0123,CN,CN_008,PDN_EDGE,PDN_018,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0124,CN,CN_008,PDN_EDGE,PDN_019,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0125,CN,CN_034,PDN_EDGE,PDN_020,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0126,CN,CN_034,PDN_EDGE,PDN_021,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0127,CN,CN_037,PDN_EDGE,PDN_022,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0128,CN,CN_030,PDN_EDGE,PDN_023,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0129,CN,CN_038,PDN_EDGE,PDN_024,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0130,CN,CN_039,PDN_EDGE,PDN_025,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0131,CN,CN_012,PDN_EDGE,PDN_026,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0132,CN,CN_007,PDN_EDGE,PDN_027,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0133,CN,CN_016,PDN_EDGE,PDN_028,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0134,CN,CN_015,PDN_EDGE,PDN_029,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0135,CN,CN_016,PDN_EDGE,PDN_030,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0136,CN,CN_024,PDN_EDGE,PDN_031,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0137,CN,CN_023,PDN_EDGE,PDN_032,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0138,CN,CN_022,PDN_EDGE,PDN_033,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0139,CN,CN_031,PDN_EDGE,PDN_034,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0140,CN,CN_013,PDN_EDGE,PDN_035,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0141,CN,CN_035,PDN_EDGE,PDN_036,switch_controllability,derived_v1_nearest_cn,Switch controller assigned to nearest CN node by Appendix B coordinates; exact DA mapping not tabulated.
+DEP_0142,CN,CN_037,EV_CLUSTER,EV_001,ev_dispatchability,derived_v1_nearest_cn_for_official_v2g_bus,V2G station bus 704 visually identified from final Fig. 5; nearest CN node assigned.
+DEP_0143,PDN,704,EV_CLUSTER,EV_001,v2g_grid_coupling,official_v1_figure5_visual,V2G station visually assigned to PDN bus 704; requires second-pass figure proofreading.
+DEP_0144,CN,CN_010,EV_CLUSTER,EV_002,ev_dispatchability,derived_v1_nearest_cn_for_official_v2g_bus,V2G station bus 730 visually identified from final Fig. 5; nearest CN node assigned.
+DEP_0145,PDN,730,EV_CLUSTER,EV_002,v2g_grid_coupling,official_v1_figure5_visual,V2G station visually assigned to PDN bus 730; requires second-pass figure proofreading.
+DEP_0146,CN,CN_015,EV_CLUSTER,EV_003,ev_dispatchability,derived_v1_nearest_cn_for_official_v2g_bus,V2G station bus 737 visually identified from final Fig. 5; nearest CN node assigned.
+DEP_0147,PDN,737,EV_CLUSTER,EV_003,v2g_grid_coupling,official_v1_figure5_visual,V2G station visually assigned to PDN bus 737; requires second-pass figure proofreading.

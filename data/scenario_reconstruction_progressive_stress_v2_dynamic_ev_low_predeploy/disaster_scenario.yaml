@@ -1,0 +1,57 @@
+scenario:
+  id: applied_energy_progressive_stress_v2_dynamic_ev_low_predeploy
+  type: progressive_weather_release_stress_dynamic_ev
+  source: framework1_progressive_overlay_on_official_v1_extended_failure_set
+  description: >
+    Extended progressive PTIN restoration stress case with time-varying
+    aggregate V2G availability and weakened predeployment quality. The topology
+    and staged PDN failures follow the progressive stress-v2 overlay. The local
+    resource fleet file lowers initial mobile-resource readiness for a
+    diagnostic predeployment-quality ablation.
+  failed_pdn_line_switch_count: 8
+  failed_pdn_line_switch_ids:
+    - PDN_036
+    - PDN_017
+    - PDN_003
+    - PDN_014
+    - PDN_004
+    - PDN_009
+    - PDN_020
+    - PDN_022
+  failed_pdn_line_bus_pairs:
+    - 799-701
+    - 709-708
+    - 702-713
+    - 708-733
+    - 702-703
+    - 705-742
+    - 711-741
+    - 713-704
+  effects:
+    - staged_pdn_line_outage
+    - source_feeder_and_branch_restoration_interaction
+    - dynamic_cn_power_supply_loss
+    - dynamic_traffic_light_and_lighting_loss
+    - time_varying_ev_v2g_availability
+    - rolling_mess_ugv_travel_time_feedback
+
+source_data:
+  base_scenario_dir: ../scenario_reconstruction_official_v1
+
+framework_alignment:
+  disaster_category: progressive
+  control_paradigm: mpc_rolling_horizon
+  traffic_uncertainty_mode: scenario_feedback_interval_robust
+  robust_travel_time_multiplier: 1.35
+  predeployment_quality_index: 0.35
+  topology_vulnerability_weight: 0.15
+
+failure_release_steps:
+  PDN_036: 0
+  PDN_017: 0
+  PDN_003: 2
+  PDN_014: 2
+  PDN_004: 4
+  PDN_009: 4
+  PDN_020: 6
+  PDN_022: 6

@@ -1,0 +1,41 @@
+scenario_id: zhong2025_ptin_official_v1
+scenario_name: applied_energy_final_appendix_b_ptin_case
+status: official_appendix_seed_v1
+
+source:
+  official_article_page: https://www.sciencedirect.com/science/article/pii/S0306261925004465
+  doi: https://doi.org/10.1016/j.apenergy.2025.125716
+  local_final_pdf: references/参考论文(1).pdf
+  reconstruction_note: >
+    Scenario V1 is built from final Applied Energy Appendix B tables B.3-B.7.
+    CN communication links still use a coordinate-distance rule pending exact
+    extraction from Fig. 6.
+
+target_counts:
+  pdn_nodes: 37
+  utn_nodes: 24
+  cn_nodes: 43
+  v2g_stations: 3
+  mess_ugv_units: 5
+  uav_units: 4
+
+files:
+  pdn_nodes: data/scenario_reconstruction_official_v1/pdn_nodes.csv
+  pdn_edges: data/scenario_reconstruction_official_v1/pdn_edges.csv
+  utn_nodes: data/scenario_reconstruction_official_v1/utn_nodes.csv
+  utn_edges: data/scenario_reconstruction_official_v1/utn_edges.csv
+  cn_nodes: data/scenario_reconstruction_official_v1/cn_nodes.csv
+  cn_edges: data/scenario_reconstruction_official_v1/cn_edges.csv
+  dependencies: data/scenario_reconstruction_official_v1/dependencies.csv
+  resources: data/scenario_reconstruction_official_v1/resource_fleet.yaml
+  disaster: data/scenario_reconstruction_official_v1/disaster_scenario.yaml
+
+time:
+  step_minutes: 1
+  episode_minutes: 120
+
+units:
+  distance: km
+  power: kW
+  energy: kWh
+  speed: km_per_h

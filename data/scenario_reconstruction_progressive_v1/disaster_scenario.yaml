@@ -1,0 +1,42 @@
+scenario:
+  id: applied_energy_progressive_v1_switch_failure
+  type: progressive_weather_release
+  source: framework1_progressive_overlay_on_official_v1
+  description: >
+    Progressive PTIN restoration scenario that reuses the official reconstructed
+    PDN, CN, UTN, dependency and resource data while releasing the four failed
+    PDN lines over multiple closed-loop decision steps.
+  failed_pdn_line_switch_count: 4
+  failed_pdn_line_switch_ids:
+    - PDN_003
+    - PDN_004
+    - PDN_017
+    - PDN_020
+  failed_pdn_line_bus_pairs:
+    - 702-713
+    - 702-703
+    - 709-708
+    - 711-741
+  effects:
+    - staged_pdn_line_outage
+    - dynamic_cn_power_supply_loss
+    - dynamic_traffic_light_and_lighting_loss
+    - staged_ev_dispatchability_loss
+    - rolling_mess_ugv_travel_time_feedback
+
+source_data:
+  base_scenario_dir: ../scenario_reconstruction_official_v1
+
+framework_alignment:
+  disaster_category: progressive
+  control_paradigm: mpc_rolling_horizon
+  traffic_uncertainty_mode: scenario_feedback_interval_robust
+  robust_travel_time_multiplier: 1.35
+  predeployment_quality_index: 1.0
+  topology_vulnerability_weight: 0.15
+
+failure_release_steps:
+  PDN_003: 0
+  PDN_017: 0
+  PDN_004: 3
+  PDN_020: 5

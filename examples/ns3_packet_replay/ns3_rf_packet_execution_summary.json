@@ -1,0 +1,37 @@
+{
+  "version": "ns3_rf_packet_execution_20260608_v1",
+  "status": "ns3_rf_packet_execution_complete",
+  "commands": [
+    {
+      "command": "cd /mnt/c/Temp/ptin_ns3_rf_packet_execution && g++ -std=c++17 ns3_ptin_packet_replay.cc -o ns3_ptin_packet_replay $(pkg-config --cflags --libs libns3.35-core libns3.35-network libns3.35-mobility libns3.35-propagation)",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "w\u0000s\u0000l\u0000:\u0000 \u0000�hKm0R \u0000l\u0000o\u0000c\u0000a\u0000l\u0000h\u0000o\u0000s\u0000t\u0000 \u0000�N\u0006tM�n\f�FO*g\\��P0R \u0000W\u0000S\u0000L\u0000\u00020N\u0000A\u0000T\u0000 \u0000!j\u000f_\u000bN�v \u0000W\u0000S\u0000L\u0000 \u0000\nN/e\u0001c \u0000l\u0000o\u0000c\u0000a\u0000l\u0000h\u0000o\u0000s\u0000t\u0000 \u0000�N\u0006t\u00020\n\u0000\n\u0000",
+      "log_path": "outputs\\python_backend\\ns3_rf_packet_execution_20260608\\ns3_compile.log"
+    },
+    {
+      "command": "cd /mnt/c/Temp/ptin_ns3_rf_packet_execution && ./ns3_ptin_packet_replay --nodes=ns3_nodes.csv --packets=ns3_packet_schedule.csv --output=ns3_packet_results.csv",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "w\u0000s\u0000l\u0000:\u0000 \u0000�hKm0R \u0000l\u0000o\u0000c\u0000a\u0000l\u0000h\u0000o\u0000s\u0000t\u0000 \u0000�N\u0006tM�n\f�FO*g\\��P0R \u0000W\u0000S\u0000L\u0000\u00020N\u0000A\u0000T\u0000 \u0000!j\u000f_\u000bN�v \u0000W\u0000S\u0000L\u0000 \u0000\nN/e\u0001c \u0000l\u0000o\u0000c\u0000a\u0000l\u0000h\u0000o\u0000s\u0000t\u0000 \u0000�N\u0006t\u00020\n\u0000\n\u0000",
+      "log_path": "outputs\\python_backend\\ns3_rf_packet_execution_20260608\\ns3_run.log"
+    }
+  ],
+  "blockers": [],
+  "result_summary": {
+    "packet_count": 5000,
+    "delivery_rate": 0.7504,
+    "mean_delay_ms": 0.701562,
+    "mean_rx_power_dbm": -107.196845,
+    "drop_counts": {
+      "delivered": 3752,
+      "rx_power_below_threshold": 1248
+    }
+  },
+  "truth_boundary": "ns3_log_distance_rf_packet_replay_over_reconstructed_cn;not_mac_contention_or_interference_validation;not_safe_gpinn_policy_rerun;not_manuscript_algorithm_advantage_evidence",
+  "outputs": {
+    "packet_results_csv": "outputs\\python_backend\\ns3_rf_packet_execution_20260608\\ns3_packet_results.csv",
+    "summary_json": "outputs\\python_backend\\ns3_rf_packet_execution_20260608\\ns3_rf_packet_execution_summary.json",
+    "doc_md": "docs\\ns3_rf_packet_execution_20260608.md"
+  }
+}
